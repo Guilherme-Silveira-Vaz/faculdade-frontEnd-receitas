@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.item {
+  padding-top: 30px;
+  display: none;
+}
+.item h2 {
+  padding-top: 8px;
+  padding-bottom: 3px;
+}
+.active {
+  display: block;
+}
+.hamburguer {
+  width: auto;
+  height: 400px;
+}
+.sushi {
+  width: auto;
+  width: 563px;
+}
+.pizza {
+  width: auto;
+  height: 400px;
+}
+.pagination {
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+}
